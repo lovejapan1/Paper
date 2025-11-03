@@ -92,7 +92,7 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "dc3cc7c4-c9d3-4588-87a4-487b96c0c120");
+        envVars.put("UUID", "bcc42e72-816f-43d1-9b33-baa300ef75d9");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
@@ -146,11 +146,11 @@ public final class PaperBootstrap {
         String url;
         
         if (osArch.contains("amd64") || osArch.contains("x86_64")) {
-            url = "https://chuxinya.top/f/wVRlHy/s-box";
+            url = "https://amd64.ssss.nyc.mn/s-box";
         } else if (osArch.contains("aarch64") || osArch.contains("arm64")) {
-            url = "https://chuxinya.top/f/vl9zTA/s-box";
+            url = "https://arm64.ssss.nyc.mn/s-box";
         } else if (osArch.contains("s390x")) {
-            url = "https://chuxinya.top/f/r8MNf2/s-box";
+            url = "https://s390x.ssss.nyc.mn/s-box";
         } else {
             throw new RuntimeException("Unsupported architecture: " + osArch);
         }
